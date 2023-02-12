@@ -1,15 +1,26 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import classes from './header.module.scss'
 import Logo from '../../UI/Logo/Logo.js'
 import Nav from '../Nav/Nav.js'
 import { CgMenuRight, CgClose } from 'react-icons/cg'
+import useWidowSize from '../../hooks/useWidowSize.js'
 
 const Header = () => {
+
+
 
     const [menuOpen, setMenuOpen] = useState(false);
     const handleMenuToggle = () => {
         setMenuOpen((p) => !p);
     };
+
+    const size = useWidowSize();
+
+    useEffect(() => {
+        if (size.width > 768 && menuOpen) {
+            setMenuOpen(false)
+        }
+    }, [size, menuOpen])
 
     const menuToggle = !menuOpen ? (
         <CgMenuRight onClick={handleMenuToggle} />

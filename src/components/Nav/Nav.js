@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from '../../UI/Button/Button.js'
 import classes from './nav.module.scss'
 
@@ -7,16 +8,19 @@ const Nav = ({ isMenu, menuToggle }) => {
         <nav className={isMenu ? classes.menu__nav : classes.nav}>
             <ul>
                 <li onClick={menuToggle} >
-                    <a href='/' >Locations</a>
+                    <Link to='/locations' >Locations</Link>
                 </li>
                 <li onClick={menuToggle} >
-                    <a href='/' >Pricing</a>
+                    <Link to='/pricing' >Pricing</Link>
                 </li>
                 <li onClick={menuToggle} >
-                    <a href='/' >Learn More</a>
+                    <Link to='/learnmore' >Learn More</Link>
                 </li>
             </ul>
-            <Button className={classes.booknow} onClick={menuToggle}>Book now</Button>
+            <Link to="/booknow">
+                <Button className={classes.booknow} onClick={menuToggle}>Book now</Button>
+            </Link>
+
         </nav>
     )
 }
