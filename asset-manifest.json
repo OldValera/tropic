@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tropic/static/css/main.99257de3.css",
-    "main.js": "/tropic/static/js/main.aa07db7b.js",
+    "main.js": "/tropic/static/js/main.779cbaf9.js",
     "static/media/cover.mp4": "/tropic/static/media/cover.071a299231771427312e.mp4",
     "static/media/maldives.jpg": "/tropic/static/media/maldives.51472d65dba007ad0e88.jpg",
     "static/media/cabosanlucas.jpg": "/tropic/static/media/cabosanlucas.058c7aa6b10026549b39.jpg",
@@ -9,10 +9,10 @@
     "static/media/borabora.jpg": "/tropic/static/media/borabora.c38e8235632270ccd96a.jpg",
     "index.html": "/tropic/index.html",
     "main.99257de3.css.map": "/tropic/static/css/main.99257de3.css.map",
-    "main.aa07db7b.js.map": "/tropic/static/js/main.aa07db7b.js.map"
+    "main.779cbaf9.js.map": "/tropic/static/js/main.779cbaf9.js.map"
   },
   "entrypoints": [
     "static/css/main.99257de3.css",
-    "static/js/main.aa07db7b.js"
+    "static/js/main.779cbaf9.js"
   ]
 }
