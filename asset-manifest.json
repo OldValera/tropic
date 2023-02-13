@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tropic/static/css/main.80355754.css",
+    "main.css": "/tropic/static/css/main.3190b75c.css",
     "main.js": "/tropic/static/js/main.2c0b0377.js",
     "static/media/cover.mp4": "/tropic/static/media/cover.071a299231771427312e.mp4",
     "static/media/maldives.jpg": "/tropic/static/media/maldives.51472d65dba007ad0e88.jpg",
@@ -8,11 +8,11 @@
     "static/media/greece.jpg": "/tropic/static/media/greece.59dffe8a94a5cbe49b45.jpg",
     "static/media/borabora.jpg": "/tropic/static/media/borabora.c38e8235632270ccd96a.jpg",
     "index.html": "/tropic/index.html",
-    "main.80355754.css.map": "/tropic/static/css/main.80355754.css.map",
+    "main.3190b75c.css.map": "/tropic/static/css/main.3190b75c.css.map",
     "main.2c0b0377.js.map": "/tropic/static/js/main.2c0b0377.js.map"
   },
   "entrypoints": [
-    "static/css/main.80355754.css",
+    "static/css/main.3190b75c.css",
     "static/js/main.2c0b0377.js"
   ]
 }
